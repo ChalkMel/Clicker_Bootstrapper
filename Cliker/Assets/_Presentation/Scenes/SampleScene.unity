@@ -832,7 +832,7 @@ MonoBehaviour:
   inputListener: {fileID: 1800338271}
   clickerIncrement: {fileID: 1861599982}
   clickerDecrement: {fileID: 730281015}
-  scoreUI: {fileID: 70975697}
+  scoreView: {fileID: 70975697}
 --- !u!4 &1689131099
 Transform:
   m_ObjectHideFlags: 0
@@ -1056,7 +1056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb0299ded9ccc604a8d1f6d5077ae28d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 0.01
+  range: 0.2
 --- !u!153 &1861599985
 ConfigurableJoint:
   m_ObjectHideFlags: 0

@@ -5,10 +5,12 @@ public class MovingTarget : MonoBehaviour
 {
     [SerializeField] private float range;
     private Rigidbody _rigidbody;
+    private ConfigurableJoint _joint;
     private const int base_force = 1000;
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        _joint = GetComponent<ConfigurableJoint>();
         _rigidbody.AddForce(transform.right * base_force);
     }
 
